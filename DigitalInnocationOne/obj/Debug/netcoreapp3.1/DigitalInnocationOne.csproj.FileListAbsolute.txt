@@ -1,0 +1,13 @@
+/home/raul/Quarentine Studies/DigitalInnocationOne/bin/Debug/netcoreapp3.1/DigitalInnocationOne
+/home/raul/Quarentine Studies/DigitalInnocationOne/bin/Debug/netcoreapp3.1/DigitalInnocationOne.deps.json
+/home/raul/Quarentine Studies/DigitalInnocationOne/bin/Debug/netcoreapp3.1/DigitalInnocationOne.runtimeconfig.json
+/home/raul/Quarentine Studies/DigitalInnocationOne/bin/Debug/netcoreapp3.1/DigitalInnocationOne.runtimeconfig.dev.json
+/home/raul/Quarentine Studies/DigitalInnocationOne/bin/Debug/netcoreapp3.1/DigitalInnocationOne.dll
+/home/raul/Quarentine Studies/DigitalInnocationOne/bin/Debug/netcoreapp3.1/DigitalInnocationOne.pdb
+/home/raul/Quarentine Studies/DigitalInnocationOne/obj/Debug/netcoreapp3.1/DigitalInnocationOne.csprojAssemblyReference.cache
+/home/raul/Quarentine Studies/DigitalInnocationOne/obj/Debug/netcoreapp3.1/DigitalInnocationOne.AssemblyInfoInputs.cache
+/home/raul/Quarentine Studies/DigitalInnocationOne/obj/Debug/netcoreapp3.1/DigitalInnocationOne.AssemblyInfo.cs
+/home/raul/Quarentine Studies/DigitalInnocationOne/obj/Debug/netcoreapp3.1/DigitalInnocationOne.csproj.CoreCompileInputs.cache
+/home/raul/Quarentine Studies/DigitalInnocationOne/obj/Debug/netcoreapp3.1/DigitalInnocationOne.dll
+/home/raul/Quarentine Studies/DigitalInnocationOne/obj/Debug/netcoreapp3.1/DigitalInnocationOne.pdb
+/home/raul/Quarentine Studies/DigitalInnocationOne/obj/Debug/netcoreapp3.1/DigitalInnocationOne.genruntimeconfig.cache
