@@ -13,6 +13,7 @@ namespace DigitalInnocationOne
             int opt = 0;
             while(opt != 4)
             {
+                Console.WriteLine("\n");    
                 Console.WriteLine("Teacher's Options");
                 Console.WriteLine("1 - Add Student");
                 Console.WriteLine("2 - List Students");
