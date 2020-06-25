@@ -40,7 +40,17 @@ namespace DigitalInnocationOne
                         Console.WriteLine($"{duplas[i].nome}");
                     }     
                 }
-                
+                 if(opt == 3)
+                { decimal media = 0;
+                    Console.WriteLine("Nome(s):");
+                    for (int i = 0; i < size; i++)
+                    {
+                       
+                       media = media + duplas[i].nota;
+                    }
+                    Console.WriteLine($"A média das notas é: {media/size}");
+                    
+                }
             }    
         }
           
