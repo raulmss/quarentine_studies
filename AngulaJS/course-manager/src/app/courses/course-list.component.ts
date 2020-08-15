@@ -12,7 +12,7 @@ export class CourseListComponent implements OnInit{
 
     _courses: Course[] = [];
 
-    _filterBy: string; //variavel que fica somente no componente. Por isso o "_".
+    _filterBy: string; //variavel que fica somente no componente. Por isso o "_"..
 
     constructor(private courseService: CourseService){}
 
