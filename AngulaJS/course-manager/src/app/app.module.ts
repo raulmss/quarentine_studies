@@ -31,7 +31,7 @@ import {Error404Component} from './404/error404.component'
         path: 'courses', component: CourseListComponent
       },
       {
-        path: '**', component: Error404Component
+        path: '**', component: Error404Component 
       }
 
     ])
