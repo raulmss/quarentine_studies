@@ -27,7 +27,7 @@ var COURSES: Course[] = [
         id: 1,
         name: 'Angular: CLI',
         releaseDate: 'November 2, 2019',
-        description: 'Neste curso, os alunos irão obter um grande conhecimento nos principais recursos do CLI.',
+        description: 'Neste curso, os alunos irão obter um grande conhecimento nos principais recursos dos CLIs.',
         duration: 120,
         code: 'XLF-1212',
         rating: 3,
