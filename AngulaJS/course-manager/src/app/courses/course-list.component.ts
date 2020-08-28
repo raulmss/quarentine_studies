@@ -27,8 +27,6 @@ export class CourseListComponent implements OnInit{
             },
             error: err => console.log('Error', err)
         })
-        
-       
     }
 
     set filter(value: string) {
