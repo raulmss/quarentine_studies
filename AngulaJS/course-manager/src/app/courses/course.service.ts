@@ -1,5 +1,7 @@
 import {Course} from './course';
-import {Injectable} from '@angular/core'
+import {Injectable} from '@angular/core';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 @Injectable({
     providedIn: 'root'
@@ -7,20 +9,24 @@ import {Injectable} from '@angular/core'
 
 export class CourseService {
 
-        retrieveAll(): Course[]{
-            return COURSES;
-        }
+    private courseUrl: string = 'http://localhost:3100/api/courses'
 
-        retrieveById(id: number): Course {
-            return COURSES.find((courseItearator: Course) => courseItearator.id === id);
-        }
+    constructor(private httpclient: HttpClient){ }//Place where Angular allows us to inject dependecies
 
-        save(course: Course): void {
-            if(course.id){
-                const index = COURSES.findIndex((courseItearator: Course) => courseItearator.id === course.id);
-                COURSES[index] = course;
-            }
+    retrieveAll(): Observable<Course[]> {
+        return this.httpclient.get<Course[]>(this.courseUrl);
+    }
+
+    retrieveById(id: number): Course {
+        return COURSES.find((courseItearator: Course) => courseItearator.id === id);
+    }
+
+    save(course: Course): void {
+        if(course.id){
+            const index = COURSES.findIndex((courseItearator: Course) => courseItearator.id === course.id);
+            COURSES[index] = course;
         }
+    }
 }
 var COURSES: Course[] = [
     {
